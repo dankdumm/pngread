@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
 	int sigcheck = strncmp(sig, SIGNATURE, SIG_SIZE);
 	if(sigcheck != 0) { printf("File is not a PNG file.\n"); return 0; }
 
-		
+	
 
 	fclose(img);
 	return 0;
