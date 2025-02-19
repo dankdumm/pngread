@@ -16,8 +16,7 @@ CHUNK TYPE CODE - 4
 CHUNK DATA - N 
 CRC - 4
 */
-//TODO: Add special enums/definitions for CHUNK TYPE NAMES, and use those to identify
-//how to process the CHUNK DATA.
+//TODO: Add special enums/definitions for CHUNK TYPE NAMES, and use those to identify how to process the CHUNK DATA.
 
 void freadchunk(PNG_CHUNK* chunk, FILE* image) {
 	unsigned char* data = malloc(8); 
